@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>ClusterOne.Pipelines</id>
+		<version>$version$</version>
+		<title>Pipelines</title>
+		<authors>Ryan Vogrinec</authors>
+		<owners>Ryan Vogrinec</owners>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<licenseUrl>https://raw.githubusercontent.com/ryanvog/Pipelines/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/ryanvog/Pipelines</projectUrl>
+		<description>A managed parallel-optimized pipeline execution engine.</description>
+		<tags>Pipeline parallel chain of responsibility task</tags>
+		<dependencies>
+			<dependency id="Newtonsoft.Json" version="7.0.1" />
+			<dependency id="log4net" version="2.0.3" />
+			<dependency id="structuremap" version="3.1.6.186" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\$configuration$\$id$.pdb" target="lib\net451\" />
+	</files>
+</package>
